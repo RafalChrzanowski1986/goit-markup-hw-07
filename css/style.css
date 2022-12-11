@@ -105,6 +105,9 @@ ul {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ECECEC;
   justify-content: space-between;
 }
 .navbar-wrapper {
@@ -115,11 +118,6 @@ ul {
   align-items: center;
 }
 
-.header {
-  display: flex;
-  align-items: center;
-  border: 1px solid #ECECEC;
-}
 .navigation-list-item::not(:last-child) {
   margin-right: 46px;
 }
@@ -129,7 +127,7 @@ ul {
   align-items: center
 }
 
-.contact-wrapper {
+.header__contact-wrapper {
   gap: 50px;
   display: flex;
   line-height: 1.17;
