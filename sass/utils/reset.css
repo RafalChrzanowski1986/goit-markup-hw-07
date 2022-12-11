@@ -1,0 +1,148 @@
+:root {
+  --descriptions-color: #757575;
+  --black-color: #000000;
+  --accent-color: #2196f3;
+  --white-color: #ffffff;
+  --footer-color: #2f303a;
+  --stress-color: #2196f3;
+  --main-font-size: 14px;
+  --letter-spacing: 0.03em;
+  --letter-spacing-big: 0.06em;
+  --social-media-icon: #afb1b8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--black-color);
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.link-list {
+  display: flex;
+  gap: 46px;
+  align-items: center;
+  line-height: 1.02;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0px;
+  padding: 0;
+}
+
+a {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.header-contact {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section-header {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.navigation_logo {
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+  margin-right: 93px;
+  display: block;
+}
+
+.menu-link {
+  position: relative;
+}
+
+.menu-link-active::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  background-color: var(--accent-color);
+  width: 100%;
+  border-radius: 2px;
+  bottom: -32px;
+  left: 0px;
+}
+
+.section {
+  padding: 94px 0;
+}
+
+.web {
+  color: var(--accent-color);
+}
+
+.studio {
+  color: var(--black-color);
+}
+
+.button {
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  cursor: pointer;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 30px;
+  padding: 10px 41px 10px 42px;
+  border: none;
+}
+
+.section-heading {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.1875;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  margin-bottom: 50px;
+}
+
+.main-list {
+  margin-bottom: 50px;
+  padding-inline: 8px;
+  gap: 8px;
+}
+
+.list {
+  display: flex;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  color: #757575;
+  list-style-type: none;
+  justify-content: center;
+  gap: 8px;
+}/*# sourceMappingURL=reset.css.map */

@@ -1,1 +1,76 @@
-/*# sourceMappingURL=main.css.map */
+body {
+    font-family: "Roboto", sans-serif;
+    color: var(--black-color);
+    margin: 0;
+  }
+  
+  .link-list {
+    display: flex;
+    gap: 46px;
+    align-items: center;
+    line-height: 1.02;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0px;
+    padding: 0;
+  }
+  
+  a {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .header-contact {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .section-header {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+  
+  .navigation_logo {
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 1.17;
+    margin-right: 93px;
+    display: block;
+  }
+  
+  .menu-link {
+    position: relative;
+  }
+  
+  .menu-link-active::after {
+    position: absolute;
+    content: "";
+    height: 4px;
+    background-color: var(--accent-color);
+    width: 100%;
+    border-radius: 2px;
+    bottom: -32px;
+    left: 0px;
+  }
+  
+  .section {
+    padding: 94px 0;
+  }
+  
+  /*# sourceMappingURL=main.css.map */
+  
+  
